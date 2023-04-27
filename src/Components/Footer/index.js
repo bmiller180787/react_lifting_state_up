@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-const Footer = () => {
+const Footer = ({loggedIn}) => {
     return (
         <div>
             Footer

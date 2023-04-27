@@ -1,7 +1,7 @@
 const Header = ({loggedIn}) => {
     return (
         <div>
-            Header
+            <h3>Header</h3>
         {loggedIn ? 'Welcome back!' : 'Welcome stranger!'}
         </div>
     )

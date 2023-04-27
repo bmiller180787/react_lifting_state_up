@@ -11,7 +11,7 @@ const App = () => {
       <>
         <Header loggedIn={loggedIn} />
         <Content />
-        <Footer />
+        <Footer loggedIn={loggedIn} />
       </>
   )
 }
