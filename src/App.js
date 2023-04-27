@@ -5,7 +5,7 @@ import Button from "./Components/Footer/Button";
 import {useState} from "react";
 
 const App = () => {
-    const [loggedIn, setLogged In] = useState(false)
+    const [loggedIn, setLoggedIn] = useState(false)
 
   return (
       <>
